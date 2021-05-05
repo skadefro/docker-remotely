@@ -31,4 +31,4 @@ jobs:
         with:
           push: true
           build-args: VERSION=${{ steps.remotely.outputs.release }}
-          tags: delifer/remotely:latest,delifer/remotely:${{ steps.remotely.outputs.release }}
+          tags: cloudhack/remotely:latest,cloudhack/remotely:${{ steps.remotely.outputs.release }}
