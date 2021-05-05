@@ -12,7 +12,7 @@ jobs:
         name: Get Latest Release
         uses: pozetroninc/github-action-get-latest-release@master
         with:
-          repository: lucent-sea/Remotely
+          repository: skadefro/Remotely
 
       - name: Checkout Repo
         uses: actions/checkout@v2
